@@ -219,3 +219,102 @@
 
 // 12-Misol
 
+// let num1 = +prompt("1-sonni kiriting");
+// let num2 = +prompt("2-sonni kiriting");
+// let num3 = +prompt("3-sonni kiriting");
+
+// let min;
+
+// if (num1 < num2) {
+//     min = num1
+// } else {
+//     min = num2
+// }
+
+// if (min > num3) {
+//     min = num3
+// }
+
+// console.log(min);
+
+
+
+
+// 13-Misol
+
+// let  num1 = +prompt("1-sonni kiriting");
+// let  num2 = +prompt("2-sonni kiriting");
+// let  num3 = +prompt("3-sonni kiriting");
+// let middle;
+
+// if ((num1 > num2 && num1 < num3) || (num1 < num2 && num1 >num3)) {
+//     middle = num1
+// } else if ((num2 > num1 && num2 < num3) || (num2 < num1 && num2 > num3)) {
+//     middle = num2
+// } else {
+//     middle = num3
+// } 
+
+// console.log(middle);
+
+
+
+
+// 14-Misol
+
+// let  num1 = +prompt("1-sonni kiriting");
+// let  num2 = +prompt("2-sonni kiriting");
+// let  num3 = +prompt("3-sonni kiriting");
+// let max;
+// let min;
+
+// if (num1 > num2) {
+//     max = num1
+// } else {
+//     max = num2
+// }
+
+// if (max < num3) {
+//     max = num3
+// }
+
+// if (num1 < num2) {
+//     min = num1
+// } else {
+//     min = num2
+// }
+
+// if (min > num3) {
+//     min = num3
+// }
+
+// console.log("Bu yerda eng kotta son" + " " + max);
+// console.log("Bu yerda eng kichik son" + " " + min);
+
+
+
+
+// 15-Misol
+
+// let  num1 = +prompt("1-sonni kiriting");
+// let  num2 = +prompt("2-sonni kiriting");
+// let  num3 = +prompt("3-sonni kiriting");
+
+// let sum1 = num1 + num2
+// let sum2 = num1 + num3
+// let sum3 = num2 + num3
+// let res1;
+// let res2;
+
+// if (sum1 >= sum2 && sum1 >= sum3) {
+//     res1 = num1
+//     res2 = num2
+// } else if (sum2 >= sum1 && sum2 >= sum3) {
+//     res1 = num1 
+//     res2 = num3
+// } else {
+//     res1 = num2 
+//     res2 = num3
+// }
+
+// console.log("Eng katta yig'indini beradigan sonlar:" + " " + res1 + " " + "va" + " " + res2);
