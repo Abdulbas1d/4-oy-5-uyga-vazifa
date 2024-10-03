@@ -318,3 +318,171 @@
 // }
 
 // console.log("Eng katta yig'indini beradigan sonlar:" + " " + res1 + " " + "va" + " " + res2);
+
+
+
+
+
+
+
+
+
+
+// Boolean ga doir misol va masalalar
+
+
+
+// 1-Misol
+
+// let a = +prompt ('Sonni kiriting');
+// if (a > 0) {
+//     console.log("A soni musbat");
+// } else {
+//     console.log("A soni musbat emas");
+// }
+
+
+
+
+// 2-Misol
+
+// let a = +prompt ('Sonni kiriting');
+// if (a % 2 == 1) {
+//     console.log("A soni toq son");
+// } else {
+//     console.log("A soni toq son emas");
+// }
+
+
+
+
+// 3-Misol
+
+// let a = +prompt('Sonni kiriting');
+// if (a % 2 == 0) {
+//     console.log("A soni juft son");
+// } else {
+//     console.log("A soni juft son emas");
+// }
+
+
+
+
+// 4-Misol
+
+// let a = +prompt("1-sonni kiriting");
+// let b = +prompt("2-sonni kiriting");
+
+// if (a > 2 && b <= 3) {
+//     console.log(true);
+// } else {
+//     console.log(false);
+// }
+
+
+
+
+// 5-Misol
+
+// let a = +prompt("1-sonni kiriting");
+// let b = +prompt("2-sonni kiriting");
+
+// if (a >= 0 || b <= 2) {
+//     console.log(true);
+// } else {
+//     console.log(false);
+// }
+
+
+
+
+// 6-Misol
+
+// let a = +prompt("1-sonni kiriting");
+// let b = +prompt("2-sonni kiriting");
+// let c = +prompt("3-sonni kiriting");
+
+// if (a <= b && b <= c) {
+//     console.log(true);
+// } else {
+//     console.log(false);
+// }
+
+
+
+
+// 7-Misol
+
+// let a = +prompt("1-sonni kiriting");
+// let b = +prompt("2-sonni kiriting");
+// let c = +prompt("3-sonni kiriting");
+
+// if (b > a && b < c) {
+//     console.log(true);   
+// } else {
+//     console.log(false);
+// }
+
+
+
+
+// 8-Misol
+
+// let a = +prompt("1-sonni kiriting");
+// let b = +prompt("2-sonni kiriting");
+
+// if (a % 2 == 1 && b % 2 == 1) {
+//     console.log(true);
+// } else {
+//     console.log(false); 
+// }
+
+
+
+
+// 9-Misol
+
+// let a = +prompt("1-sonni kiriting");
+// let b = +prompt("2-sonni kiriting");
+
+// if (a % 2 == 1 || b % 2 == 1) {
+//     console.log(true);
+// } else {
+//     console.log(false); 
+// }
+
+
+
+
+// 10-Misol
+
+// let a = +prompt("1-sonni kiriting");
+// let b = +prompt("2-sonni kiriting");
+
+// if ((a % 2 == 1 && b % 2 == 0) || (a % 2 == 0 && b % 2 == 1)) {
+//     console.log(true);
+// } else {
+//     console.log(false);
+// }
+
+
+
+
+
+
+
+
+// MASALA
+
+// Xarajatlar xisob kitobi
+
+
+
+// let money = +prompt("Alisherni pulini kiriting (So'mda)")
+// let sum = 11000.34 * 500 + 11000.34 * 250 + 12354.03 * 250
+
+// if (money >= sum) {
+//     console.log("Oq yo'l alisher");
+// } else {
+//     console.log("Alisher, ozgina puling yetarli emas ekan. Yana ozgina sabr qilish kerak");
+// }
